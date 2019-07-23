@@ -1,0 +1,16 @@
+body {
+  background-color:#ffe8b4;
+}
+
+section {
+  width: 500px;
+  height: 500px;
+  
+  /* fix section in the middle of the screen, but it starts from the top left corner of the drawing area */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  /* shift itself 50% in x and y coordinates of its width and height, so the section stays in the middle of the page, even resize the screen */
+  transform: translate(-50%, -50%);
+}
